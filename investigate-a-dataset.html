@@ -13093,6 +13093,12 @@ div#notebook {
 <p><a id='intro'></a></p>
 <h2 id="1)-Introduction">1) Introduction<a class="anchor-link" href="#1)-Introduction">&#182;</a></h2><p>The dataset that is the focus of this project is noshowappointments-kagglev2-may-2016.csv, derived from Kaggle. It contains data about Brazilian citizens scheduled to have doctor appointments, as well as some of their personal information.</p>
 <p>The reason behind this choice of this dataset is the lack of information regarding its cleanliness, thus offering more practice in that aspect. Last, but not least, perhaps the predominant reason is the interest in the medical domain and a relevant job acquisition.</p>
+<p>This project contains three(3) questions that were deemed suitable to be asked based on the available data. Further details are included in the third section of this report, "Exploratory Data Analysis". These questions are:</p>
+<ul>
+<li><strong>How many people who have received an SMS attended their appointment as opposed to those who didn't?</strong></li>
+<li><strong>At what time of the year do most appointments take place?</strong></li>
+<li><strong>Which age groups attend their appointments more frequently?</strong></li>
+</ul>
 <p>The following cells are dedicated towards initializing the project and gathering the data.</p>
 
 </div>
@@ -14220,7 +14226,6 @@ memory usage: 11.8+ MB
 
 
 </code></pre>
-<p>Now that you've trimmed and cleaned your data, you're ready to move on to exploration. Compute statistics and create visualizations with the goal of addressing the research questions that you posed in the Introduction section. It is recommended that you be systematic with your approach. Look at one variable at a time, and then follow it up by looking at relationships between variables.</p>
 <h3 id="3.1-Question-No.1:-How-many-people-who-have-received-an-SMS-attended-their-appointment-as-opposed-to-those-who-didn't?">3.1 Question No.1: How many people who have received an SMS attended their appointment as opposed to those who didn't?<a class="anchor-link" href="#3.1-Question-No.1:-How-many-people-who-have-received-an-SMS-attended-their-appointment-as-opposed-to-those-who-didn't?">&#182;</a></h3><p>For this question, a couple of speculations had to be made as to what the "sms_received" feature is supposed to indicate:</p>
 
 <pre><code>* It is directly related to the rest of the data.
